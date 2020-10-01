@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Wiki animal</string>
+    <string-array name="Nombre">
+        <item>Lobo</item>
+        <item>Tigre</item>
+        <item>Delfin</item>
+        <item>Guepardo</item>
+        <item>Tiburon</item>
+        <item>Leon</item>
+        <item>Pinguino</item>
+        <item>Elefante</item>
+    </string-array>
+    <string-array name="Nombre_cientifico">
+        <item>Nombre cientifico: Canis lupus</item>
+        <item>Nombre cientifico: Panthera tigris</item>
+        <item>Nombre cientifico: Delphinidae</item>
+        <item>Nombre cientifico: Acinonyx jubatus</item>
+        <item>Nombre cientifico: Selachimorpha</item>
+        <item>Nombre cientifico: Panthera leo</item>
+        <item>Nombre cientifico: Spheniscidae</item>
+        <item>Nombre cientifico: Elephantidae</item>
+    </string-array>
+    <string-array name="Datos">
+        <item>El lobo (Canis lupus) es una especie de mamífero placentario del orden de los carnívoros.
+            El perro doméstico (Canis lupus familiaris) se considera miembro de la misma especie según distintos indicios,
+            la secuencia del ADN y otros estudios genéticos.2​ El primer registro fósil data de hace ochocientos mil años.</item>
+        <item>El tigre (Panthera tigris) es una de las cuatro3​ especies de la subfamilia de los panterinos (familia Felidae) pertenecientes al género Panthera.
+            Se encuentra solamente en el continente asiático; es un predador carnívoro y es la especie de félido más grande del mundo junto
+            con el león pudiendo alcanzar ambos un tamaño comparable al de los fósiles de félidos de mayor tamaño.</item>
+        <item>Los delfines (Delphinidae), llamados también delfines oceánicos para distinguirlos de los platanistoideos o delfines de río,
+            son una familia de cetáceos odontocetos muy heterogénea, que comprende 37 especies actuales. Miden entre 2 y 8 metros de largo,
+            con el cuerpo fusiforme y la cabeza de gran tamaño, el hocico alargado y solo un espiráculo en la parte superior de la cabeza
+            (orificio respiratorio que muchos animales marinos tienen como contacto del aire o agua con su sistema respiratorio interno).</item>
+        <item>El guepardo (Acinonyx jubatus)1​ es un miembro atípico de la familia de los félidos. Es el único representante vivo del género Acinonyx.
+            Caza gracias a su vista y a su gran velocidad. Es el animal terrestre más veloz, ya que alcanza una velocidad punta de 115 km/h
+            en carreras de hasta cuatrocientos o quinientos metros.4​5​6​7​ Las hembras pueden tener hasta cinco cachorros por camada.
+            Su presa principal es la gacela de Thomson.</item>
+        <item>Los selaquimorfos o selacimorfos son un superorden de condrictios (peces cartilaginosos) conocidos comúnmente con el nombre de tiburones o escualos.
+            Algunos grandes escualos, como el tiburón blanco y el toro, son conocidos a veces con el nombre de jaquetones.Se caracterizan por ser grandes depredadores.
+            Los tiburones incluyen desde especies pequeñas de las profundidades marinas, hasta el tiburón ballena, el mayor de los peces, el cual se cree puede llegar a medir
+            una longitud de 18 m y se alimenta únicamente de plancton</item>
+        <item>El león (Panthera leo) es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera.
+            Los leones salvajes viven en poblaciones cada vez más dispersas y fragmentadas del África subsahariana
+            (a excepción de las regiones selváticas de la costa del Atlántico y la cuenca del Congo) y una pequeña zona del noroeste de India
+            (una población en peligro crítico en el parque nacional del Bosque de Gir y alrededores), habiendo desaparecido del resto de
+            Asia del Sur, Asia Occidental, África del Norte y la península balcánica en tiempos históricos.</item>
+        <item>Los pingüinos (Spheniscidae) son una familia de aves, la única del orden Sphenisciformes. Son aves marinas, no voladoras, que se distribuyen
+            casi exclusivamente en el hemisferio sur, exceptuando el pingüino de las islas Galápagos (Spheniscus mendiculus).
+            El nombre del orden proviene del vocablo spheniscus el cual proviene del griego cuña y el sufijo diminutivo -iscus, literalmente "cuñita",
+            haciendo referencia a su forma hidrodinámica al nadar</item>
+        <item>Los elefantes o elefántidos (Elephantidae) son una familia de mamíferos placentarios del orden Proboscidea. Antiguamente se clasificaban,
+            junto con otros mamíferos de piel gruesa, en el orden, ahora inválido, de los paquidermos (Pachydermata). Existen hoy en día tres especies y diversas subespecies.
+            Entre los géneros extintos de esta familia destacan los mamuts.</item>
+    </string-array>
+</resources>
