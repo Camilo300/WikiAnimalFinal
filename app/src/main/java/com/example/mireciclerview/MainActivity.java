@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
@@ -20,7 +22,10 @@ public class MainActivity extends AppCompatActivity {
     private Handler handler = new Handler();
 
     RecyclerView MiRecycler;
-    String nombre[], nombre_cientifico[], datos[];
+    String nombre[];
+    String nombre_cientifico[];
+    String datos[];
+    Button ubicacion;
     int imagenes [] = {R.drawable.lobo,  R.drawable.tigre,  R.drawable.delfines, R.drawable.guepardo, R.drawable.tiburon, R.drawable.leon, R.drawable.pinguino, R.drawable.elefante};
 
     @Override
@@ -33,12 +38,14 @@ public class MainActivity extends AppCompatActivity {
         datos = getResources().getStringArray(R.array.Datos);
         texto = (TextView) findViewById(R.id.Label);
         p = (ProgressBar) findViewById(R.id.Pbar);
+        ubicacion = (Button) findViewById(R.id.Ubicacion);;
         progreso();
 
         MiAdapter MA = new MiAdapter(this, this.nombre, this.nombre_cientifico,this.datos, this.imagenes);
         MiRecycler.setAdapter(MA);
         MiRecycler.setLayoutManager(new LinearLayoutManager(this));
         MiRecycler.setVisibility(View.GONE);
+        ubicacion.setVisibility(View.GONE);
 
     }
     public void progreso()
@@ -73,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
                         texto.setVisibility(View.GONE);
                         p.setVisibility(View.GONE);
                         MiRecycler.setVisibility(View.VISIBLE);
+                        ubicacion.setVisibility(View.VISIBLE);
+                        ubicacion.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Intent inten = new Intent(MainActivity.this,GPS.class);
+                                startActivity(inten);
+                            }
+                        });
                     }
                 });
             }
@@ -80,5 +95,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 }
