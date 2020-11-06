@@ -19,15 +19,16 @@ import androidx.recyclerview.widget.RecyclerView;
 public class MiAdapter extends RecyclerView.Adapter<MiAdapter.MiViewHolder> {
 
     String N[], C[], D[];
-    int A[];
+    int A[], M[];
     Context cont;
 
-    public MiAdapter(Context ct, String[] nombre, String[] nombreC,String[] datos, int[] imagen){
+    public MiAdapter(Context ct, String[] nombre, String[] nombreC,String[] datos, int[] imagen, int[] marca){
         this.cont = ct;
         this.N = nombre;
         this.C = nombreC;
         this.D = datos;
         this.A = imagen;
+        this.M = marca;
     }
 
     @NonNull
@@ -44,6 +45,7 @@ public class MiAdapter extends RecyclerView.Adapter<MiAdapter.MiViewHolder> {
         holder.nc.setText(this.C[position]);
         holder.d.setText(this.D[position]);
         holder.im.setImageResource(A[position]);
+        holder.m.setImageResource(M[position]);
 
         holder.setOnClickListener();
     }
@@ -57,7 +59,7 @@ public class MiAdapter extends RecyclerView.Adapter<MiAdapter.MiViewHolder> {
         Context context;
         TextView  n, nc, d;
         Button btn;
-        ImageView im;
+        ImageView im, m;
 
         public MiViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -67,6 +69,7 @@ public class MiAdapter extends RecyclerView.Adapter<MiAdapter.MiViewHolder> {
             btn =  itemView.findViewById(R.id.boton);
             d = itemView.findViewById(R.id.Datos);
             im = itemView.findViewById(R.id.miimagen);
+            m = itemView.findViewById(R.id.Marca);
 
             d.setVisibility(View.GONE);
         }

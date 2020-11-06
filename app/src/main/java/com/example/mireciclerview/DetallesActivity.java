@@ -25,12 +25,13 @@ public class DetallesActivity extends AppCompatActivity {
         String nombre = "";
         String nombreC = "";
         String datos = "";
+        img =  findViewById(R.id.imageView);
+
         Bundle extras = getIntent().getExtras();
         if(extras != null){
             nombre = extras.getString("nombre");
             nombreC = extras.getString("nombreC");
             datos = extras.getString("datos");
-
 
         }
 
@@ -40,7 +41,30 @@ public class DetallesActivity extends AppCompatActivity {
         textView.setText(nombreC);
         final TextView data = (TextView) findViewById(R.id.data);
         data.setText(datos);
-        final ImageView img = (ImageView)  findViewById(R.id.imageView);
+        if(tvnombre.getText().equals("Lobo")){
+            img.setImageResource(R.drawable.lobo);
+        }
+        else if(tvnombre.getText().equals("Tigre")){
+            img.setImageResource(R.drawable.tigre);
+        }
+        else if(tvnombre.getText().equals("Delfin")){
+            img.setImageResource(R.drawable.delfines);
+        }
+        else if(tvnombre.getText().equals("Guepardo")){
+            img.setImageResource(R.drawable.guepardo);
+        }
+        else if(tvnombre.getText().equals("Tiburon")){
+            img.setImageResource(R.drawable.tiburon);
+        }
+        else if(tvnombre.getText().equals("Leon")){
+            img.setImageResource(R.drawable.leon);
+        }
+        else if(tvnombre.getText().equals("Pinquino")){
+            img.setImageResource(R.drawable.pinguino);
+        }
+        else if(tvnombre.getText().equals("Elefante")){
+            img.setImageResource(R.drawable.elefante);
+        }
 
         RG = (RadioGroup) findViewById(R.id.rgb1);
         RG2 = (RadioGroup) findViewById(R.id.radioGroup2);

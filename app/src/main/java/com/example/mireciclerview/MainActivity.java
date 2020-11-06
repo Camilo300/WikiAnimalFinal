@@ -9,10 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     String datos[];
     Button ubicacion;
     int imagenes [] = {R.drawable.lobo,  R.drawable.tigre,  R.drawable.delfines, R.drawable.guepardo, R.drawable.tiburon, R.drawable.leon, R.drawable.pinguino, R.drawable.elefante};
+    int marca [] = {R.drawable.marcalobo,  R.drawable.marcatigre,  R.drawable.marcadelfin, R.drawable.marcaguepardo, R.drawable.marcatiburon, R.drawable.marcaleon, R.drawable.marcapinguino, R.drawable.marcaelefante};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         ubicacion = (Button) findViewById(R.id.Ubicacion);;
         progreso();
 
-        MiAdapter MA = new MiAdapter(this, this.nombre, this.nombre_cientifico,this.datos, this.imagenes);
-        MiRecycler.setAdapter(MA);
+        MiAdapter AD = new MiAdapter(this, this.nombre, this.nombre_cientifico,this.datos, this.imagenes, this.marca);
+        MiRecycler.setAdapter(AD);
         MiRecycler.setLayoutManager(new LinearLayoutManager(this));
         MiRecycler.setVisibility(View.GONE);
         ubicacion.setVisibility(View.GONE);
