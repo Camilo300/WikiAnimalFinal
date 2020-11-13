@@ -41,6 +41,7 @@ public class DetallesActivity extends AppCompatActivity {
         textView.setText(nombreC);
         final TextView data = (TextView) findViewById(R.id.data);
         data.setText(datos);
+
         if(tvnombre.getText().equals("Lobo")){
             img.setImageResource(R.drawable.lobo);
         }
