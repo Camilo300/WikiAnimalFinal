@@ -1,4 +1,4 @@
-package com.example.mireciclerview;
+package com.miapp.WikiAnimal;
 
 import androidx.fragment.app.FragmentActivity;
 

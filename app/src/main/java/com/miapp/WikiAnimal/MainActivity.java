@@ -1,4 +1,4 @@
-package com.example.mireciclerview;
+package com.miapp.WikiAnimal;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

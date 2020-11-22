@@ -8,15 +8,18 @@
     tools:context=".Agregar">
 
     <EditText
-        android:id="@+id/editText5"
-        android:layout_width="274dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        android:id="@+id/editText4"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="352dp"
+        android:autofillHints=""
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText2"
@@ -83,8 +86,8 @@
         android:id="@+id/Alta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="236dp"
         android:onClick="alta"
         android:text="Alta"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,8 +97,8 @@
         android:id="@+id/C_nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="236dp"
         android:onClick="consulta"
         android:text="Consultar nombre"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,8 +108,8 @@
         android:id="@+id/Baja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="236dp"
         android:onClick="baja"
         android:text="Baja"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -136,46 +139,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/ubicacion"
+        android:id="@+id/Ubicacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="80dp"
-        android:text="Ubicacion:"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="320dp"
+        android:text="Ubicacion"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/datos" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/longitud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:text="Longitud"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ubicacion" />
-
-    <TextView
-        android:id="@+id/latitud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="Latitud"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/longitud" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="274dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="36dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,7 @@
-package com.example.mireciclerview;
+package com.miapp.WikiAnimal;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
@@ -18,13 +17,13 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(
-                "create table animal(nombre text primary key, nombreC text, datos text, longitud text, latitud text)");
+                "create table animal(nombre text primary key, nombreCientifico text, datos text, ubicacion text)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int version1, int version2) {
         db.execSQL("drop table if exists animal");
-        db.execSQL("create table animal(nombre text primary key, nombreC text, datos text, longitud text, latitud text)");
+        db.execSQL("create table animal(nombre text primary key, nombreCientifico text, datos text, ubicacion text)");
 
     }
 

@@ -1,4 +1,4 @@
-package com.example.mireciclerview;
+package com.miapp.WikiAnimal;
 
 import org.junit.Test;
 
