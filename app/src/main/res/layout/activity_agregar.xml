@@ -83,48 +83,44 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Alta"
+        android:id="@+id/Ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="236dp"
-        android:onClick="alta"
-        android:text="Alta"
+        android:text="Ingresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/C_nombre"
+        android:id="@+id/Consultar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="124dp"
+        android:layout_marginEnd="164dp"
         android:layout_marginBottom="236dp"
-        android:onClick="consulta"
-        android:text="Consultar nombre"
+        android:text="Consultar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/Baja"
+        android:id="@+id/Eliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="236dp"
-        android:onClick="baja"
-        android:text="Baja"
+        android:text="Eliminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/Modificacion"
+        android:id="@+id/Actualizar"
         android:layout_width="210dp"
         android:layout_height="59dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="96dp"
-        android:onClick="modificacion"
-        android:text="Modificacion de datos"
+        android:text="Actualizar de datos"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/C_nombre" />
+        app:layout_constraintTop_toBottomOf="@+id/Consultar" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"

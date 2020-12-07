@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "274404909793",
-    "firebase_url": "https://wikianimal-b2419.firebaseio.com",
-    "project_id": "wikianimal-b2419",
-    "storage_bucket": "wikianimal-b2419.appspot.com"
+    "project_number": "998001613113",
+    "firebase_url": "https://wiki-animal-default-rtdb.firebaseio.com",
+    "project_id": "wiki-animal",
+    "storage_bucket": "wiki-animal.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:274404909793:android:a6b253cef07989a20b4da0",
+        "mobilesdk_app_id": "1:998001613113:android:23224f4f53a2605a6e30e8",
         "android_client_info": {
           "package_name": "com.miapp.WikiAnimal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "274404909793-k35p4th3657lgrfqoj669icita753p4f.apps.googleusercontent.com",
+          "client_id": "998001613113-ttgln06emvslfq1kje9aqhgo64se2kc7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.miapp.WikiAnimal",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "274404909793-f2bthi5a6clgdfj05ig958d5hnbf02uf.apps.googleusercontent.com",
+          "client_id": "998001613113-um88q206fk1ga08429qbnpfm4q1i4j5a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBCNZRnJxhgIxMnM-Gq0n1nyEXLgvXUXGU"
+          "current_key": "AIzaSyDQ6Nose26NsvTM-b0wgwxSzXddzJyaHIY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "274404909793-f2bthi5a6clgdfj05ig958d5hnbf02uf.apps.googleusercontent.com",
+              "client_id": "998001613113-um88q206fk1ga08429qbnpfm4q1i4j5a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
